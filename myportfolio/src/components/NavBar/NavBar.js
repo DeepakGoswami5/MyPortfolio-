@@ -1,13 +1,14 @@
 import React from 'react'
 import avatar from '../../images/avatar.jpg';
 import {NavLink} from 'react-router-dom';
+import "./NavBar.scss"
 const navBar = () => {
     return (
         <div className="NavBar">
-            <div className="profile">
-                <img src={avatar} alt="avatar"></img>
-            </div>
             <nav className="nav">
+                <div className="profile">
+                    <img src={avatar} alt="avatar"></img>
+                </div>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -35,10 +36,10 @@ const navBar = () => {
                         </NavLink>
                     </li>
                 </ul>
+                <footer className="footer">
+                    <p>Lorem</p>
+                </footer>
             </nav>
-            <footer className="footer">
-                <p>Lorem</p>
-            </footer>
         </div>
     )
 }

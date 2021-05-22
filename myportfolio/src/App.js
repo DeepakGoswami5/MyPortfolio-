@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="sidebar">
         <NavBar/>
-      </div>
+      </div> 
       <div className="main-content"></div>
     </div>
   );
