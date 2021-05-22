@@ -1,0 +1,40 @@
+.HomePage{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    .main-header{
+        .hero-text{
+            text-align:center;
+            font-size: 3.6rem;
+            color: white;
+            span{
+                color: #037FFF;
+            }
+        }
+        .a-subtext{
+            text-align:center;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:1.5rem 0;
+            .icon-holder{
+                margin-right: 1rem;
+                .icon{
+                    font-size:2.3rem;
+                    color:#a4acc4;
+                    transition: all .4s ease-in-out;
+                }
+                .lin:hover{
+                    color: blue;
+                }
+                .gt:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
