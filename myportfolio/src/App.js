@@ -1,11 +1,11 @@
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
-import HomePage from './components/HomePage/HomePage'
+import HomePage from './Pages/HomePage/HomePage'
 import {Switch,Route} from 'react-router-dom';
-import AboutPage from './components/AboutPage/AboutPage';
-import Experience from './components/Experience/Experience';
-import Work from './components/Work/Work';
-import Contact from './components/Contact/Contact';
+import AboutPage from './Pages/AboutPage/AboutPage';
+import Experience from './Pages/Experience/Experience';
+import Work from './Pages/Work/Work';
+import Contact from './Pages/Contact/Contact';
 function App() {
   return (
     <div className="App">
@@ -31,7 +31,6 @@ function App() {
             <Contact/>
           </Route>
         </Switch>
-          
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://DeepakGoswami5.github.io/MyPortfolio-",
+  "homepage": "http://DeepakGoswami5.github.io/MyPortfolio/home",
   "dependencies": {
     "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
