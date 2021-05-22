@@ -12,6 +12,11 @@ const navBar = () => {
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
+                            Home
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/about" exact activeClassName="active">
                             About
                         </NavLink>
                     </li>
